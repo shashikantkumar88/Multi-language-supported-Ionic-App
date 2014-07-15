@@ -1,10 +1,9 @@
 angular.module('starter.controllers', ['pascalprecht.translate'])
         .controller('DashCtrl', function($scope) {
         })
-        .controller('FriendsCtrl', function($scope, Friends, $translate, $ionicViewService) {
+        .controller('FriendsCtrl', function($scope, Friends, $translate) {
             $scope.curlang = $translate.use();
             $scope.friends = Friends.all($scope.curlang);
-            $ionicViewService.clearHistory();
         })
 
         .controller('FriendDetailCtrl', function($scope, $stateParams, Friends, $translate, $ionicViewService) {
