@@ -1,4 +1,4 @@
-Multi-languiage-supported-Ionic-App
+Multi-language-supported-Ionic-App
 ===================================
 
 I created Multiple Language Supported App.
